@@ -1,6 +1,31 @@
 1) 
+1.1) Las hojas de estilo es una tecnología que nos permite controlar la apariencia de una página web.
+Se usa para describir como los elementos dispuestos en la página son presentados al usuario.
 
-1.4)Los selectores mas utilizados
+1.2) Las hojas de estilo están compuestas por una o más de esas reglas aplicadas a un documento HTML o XML. 
+La regla tiene dos partes: un selector y la declaración. 
+A su vez la declaración está compuesta por una propiedad y el valor que se le asigne. 
+
+Ejemplo:
+h1 {color: red;}
+h1 es el selector
+{color: red;} 
+es la declaración 
+
+El selector funciona como enlace entre el documento y el estilo, especificando los 
+elementos que se van a ver afectados por esa declaración.
+La declaración es la parte de la regla que establece cuál será el efecto. 
+
+1.3) Las tres formas mas conocidas de dar estilo a un documento son las siguientes:
+- Utilizando una hoja de estilo externa que estara vinculada a un documento a traves del elemento <link>, el 
+cual debe ir situado en la seccion  <head>.
+- Utilizando el elemento <style>, en el interior del documento al que se le quiere dar estilo, y que
+generalmente se situaria  en la seccion <head>. De esta forma los estilos seran reconocidos antes de que
+la pagina se cargue por completo
+- Utilizando estilos directamente sobre aquellos elementos que lo permiten a traves del atributo <style> dentro de <body>.
+Pero este tipo de estilo pierde las ventajas que ofrecen las hojas de estilo al mezclarse el contenido con la presentacion.
+
+1.4)
 Elementos:
 p{
 	color:red
