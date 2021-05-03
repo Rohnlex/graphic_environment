@@ -1,0 +1,72 @@
+h1, h2, h3{
+    color:red
+}
+
+*[href]{
+    color:black
+}
+
+ul #ultimo{
+    color:yellow;
+}
+ul #ultimo [href*="http"]{
+    color:blue;
+}
+
+#importante{
+    color:green
+}
+h1#importante,h2#importante,h3#importante{
+    color:red
+}
+
+h1[title]{
+    color:blue
+}
+
+ol a:link{
+    color:blue;
+}
+ol a:visited{
+    color:violet;
+    text-decoration: none;
+}
+
+
+/*
+p#normal {
+    font-family: arial,helvetica;
+    font-size: 11px;
+    font-weight: bold;
+}
+*#destacado {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+#distinto {
+    background-color: #9EC7EB;
+    color: red;
+}
+*/
+/*
+p.quitar {
+    color: red;
+    }
+*.desarrollo {
+    font-size: 8px;
+}
+.importante {
+    font-size: 20px;
+}
+*/
+
+/*
+* {color:green; }
+a:link {color:gray }
+a:visited{color:blue }
+a:hover {color:fuchsia }
+a:active {color:red }
+p {font-family: arial,helvetica;font-size: 10px;color:black; }
+.contenido{font-size: 14px;font-weight: bold; }
+*/

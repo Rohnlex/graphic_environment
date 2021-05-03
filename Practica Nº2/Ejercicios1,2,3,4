@@ -1,0 +1,102 @@
+1) 
+
+1.4)Los selectores mas utilizados
+Elementos:
+p{
+	color:red
+}
+
+ID:
+#id{
+	color:red
+}
+
+Clase:
+.class{
+	color:red
+}
+
+Atributos:
+p[attribute]{
+	color:red
+}
+
+Descendiente:
+div p{
+	color:red
+}
+
+Combinador:
+div > h1 {
+	color:red
+}
+
+Adyacente:
+div ~ p {
+	color:red
+}
+
+Pseudo clases:
+a:hover{
+	color:red
+}
+
+Pseudo elementos:
+p::first-line {
+ 	color:red
+}
+
+NTH:
+apple:nth-of-type(2){
+ 	color:red
+}
+
+Estrella:
+*{
+	color:red
+}
+
+
+1.5) Las pseudo clases son estilos basados en el estado de un elemento.
+
+Las mas aplicadas a vincuos son:
+:active
+:hover
+:link
+:visited
+
+
+1.6) La herencia es el mecanismo mediante el cual determinadas propiedades 
+de un elemento padre se transmiten a sus hijos.
+
+
+1.7) El navegador, para saber que bloque de estilos tiene prioridad sobre 
+los demás, analiza (por orden) tres conceptos clave del código CSS: su 
+importancia, su especificidad y su orden. Veamos en que se basa cada uno 
+de ellos.
+
+
+2) 
+Las reglas son p#normal, *#destacado y #distinto.
+La declaraciones del primero especifican el tipo de font, el tamaño y negrita. Esto se aplica a cualquier selector con id="normal".
+Las del segundo generan un borde de estilo solido, de color azul y de 2 pixeles de grosor. Esto se aplica a cualquier selector con id="destacado".
+Las del tercero muestran un fondo de color celeste y color rojo de las letras. Esto se aplica a cualquier selector con id="distinto".
+ 
+3) 
+Las reglas son p.quitar, *.desarrollo y .importante
+La declaracion del primero especifica el color de letra rojo. Esto se aplica solo a los selectores p con class="quitar"
+La del segundo muestra texto con tamaño de fuente de 8 pixeles. Esto se aplica a cualquier selector con class="desarrollo"
+La del tercero muestra texto con tamaño de fuente de 20 pixeles. Esto se aplica a cualquier selector con class="importante"
+	
+4) En el codigo de la izquierda se muestra un texto dentro del elemento p con class="contenido" y 
+ademas un estilo font-weight:normal que se superpone al ya declarado en la clase contenido, por lo 
+que el texto toma el valor final de font-weight:normal.
+Luego muestra una tabla con texto de color verde y al final fuera de la tabla un enlace que al mover 
+el cursor por encima de el cambia de color a fucsia y una vez clickeado cambia a azul.
+
+En el codigo de la derecha el body tiene class="contenido" por lo que todo elemento dentro del body 
+adquiere el formato declarado en la clase contenido a menos que vuelva a declararse nuevamente pisando 
+el estilo anterior. 
+Tambien se muestra un texto dentro del elemento p.
+Luego muestra una tabla con texto de color verde y al final fuera de la tabla un enlace que al mover 
+el cursor por encima de el cambia de color a fucsia y una vez clickeado cambia a azul.
