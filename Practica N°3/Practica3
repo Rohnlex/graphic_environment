@@ -1,0 +1,114 @@
+1 - A qué nos referimos al hablar de Arquitectura de la Información y cuáles son los ítems principales que constituyen su metodología?  
+
+La arquitectura de la información se encarga del estudio, análisis, organización y disposición de la información. Es decir, determina la estructura que tendrá nuestro sistema de información en la web.
+Los items principales que la constituyen son:
+Sistemas de organización
+Sistemas de etiquetado
+Sistemas de navegación
+Sistemas de busqueda
+
+2 - Cuál es la ventaja de tener identificados y definidos los objetivos del sitio?  
+
+Al tener identificados y definidos los objetivos del sitio podemos desprender tareas concretas que permitan avanzar en el cumplimiento de ellos.
+
+3 - Qué es la audiencia?  
+
+La audiencia es el publico al que se orienta el sitio web.
+
+4 - Según qué tipos de características se deben analizar las audiencias? 
+
+Clasificación de la audiencia para su atención adecuada:  
+• Por capacidad física  
+• Por capacidad técnica  
+• Por conocimiento de la institución  
+• Por necesidades de información  
+• Por ubicación geográfica  
+
+5 - Qué son los escenarios de uso?  
+
+Los escenarios de uso son situaciones de uso reales en el sitio web, basado en usuarios existentes que puedan llegar al sitio a buscar determinados tipos de información.
+
+6 - Cuáles deberían ser los contenidos indispensables de un sitio web? 
+
+Ordenar los contenidos, agrupándolos en conjuntos coherentes y dándoles nombres que los identifiquen. Definir, también, lo que se espera que el sitio haga, es decir, los servicios interactivos que se van a incluir. Ej.: 
+• Formulario de Contacto para envío de mensajes electrónicos  
+• Sistema de envío de una noticia por mail a un amigo  
+• Formato de impresión de los contenidos  
+• Mapa del Sitio  
+• Buscador interno del Sitio Web  
+• Área de acceso privado para usuarios registrados 
+• Sistema de envío de boletines de noticias del sitio a usuarios registrados  
+
+7 - Cuáles son los requerimientos funcionales más frecuentes en un sitio web? 
+
+Requisitos funcionales: Describen las interacciones entre el sistema y su ambiente, en forma independiente a su implementación. El ambiente incluye al usuario y cualquier otro sistema externo con el cual interactúe el sistema.
+Estos requisitos se obtendrán a partir de los intereses manifestados tanto por el responsable del sitio web, como de las personas que tendrán que interactuar directamente con él
+• ¿Qué tipo de usuarios tendrá?
+• ¿Qué tareas llevarán a cabo a los distintos tipos de usuarios?
+• Son declaraciones de los servicios que debe proporcionar el sistema.
+• Especifican la manera en que éste debe reaccionar a determinadas entradas.
+• Especifican cómo debe comportarse el sistema en situaciones particulares.
+• Pueden declarar explícitamente lo que el sistema no debe hacer.
+
+8 - Al definir la estructura de un sitio, ¿cuáles son los dos aspectos fundamentales que se deben considerar?  
+
+Los dos aspectos fundamentales son las funcionalidades y la navegacion del sitio.
+
+9 - Cuál es la diferencia entre estructura y diseño de un sitio web? 
+
+La diferencia entre la estructura y el diseño de un sitio web es que en la estructura se refiere a la forma que tomara el sitio web y el diseño es la solucion grafica que tomara el sitio web.
+
+10 - Cuáles son las características que debe tener el sistema de navegación? Explicar c/u.
+
+La navegacion debe ser clara, concisa, consistente y facilmente identificable dentro de la página. No se puede olvidar que también debe ser transparente, o sea que nadie debe ser consciente de que hay un sistema de navegación o de que está usándolo.
+Comunicar al usuario la relación entre el contenido que está visualizando y la navegación del sitio. Debemos permitir que el usuario sepa en todo momento dónde se encuentra, hacia donde puede ir desde este punto y que partes del sitio ha visitado ya.
+Reflejar la arquitectura del sitio que subyace al sistema de navegación. Debemos diferenciar la navegación global, la navegación local o subsecciones y la navegación contextual.
+Permitir volver a la página de inicio rapidamente. En un sitio web la página de inicio sirve como punto de partida y como lugar al que volver cuando nos encontramos perdidos, por eso debe ser sencillo ir a este punto desde cualquier parte del sitio.
+
+11 - Cuáles son los elementos más importantes de un sistema de navegación? 
+
+Los elementos mas importantes del sistema de navegacion son: 
+• Menú de secciones
+• Menú de rastros
+• Identificación de secciones
+• Botones de acción
+• Pie de pagina
+
+12 - Cuáles son las cuatro etapas sucesivas que se deben realizar para definir el Diseño Visual de un sitio web y en qué consiste cada una? 
+
+Las cuatro etapas son:
+• Diseño de las Estructuras de Páginas:
+Esta etapa se considera la generación de dibujos sólo lineales que describen los componentes de cada una de las pantallas del sitio, con el objetivo de verificar la ubicación de cada uno de ellos.
+• Bocetos de Diseño:
+Esta etapa consiste en la generación de dibujos digitales de la forma que tendrán las páginas principales del sitio que se desarrolla, considerando como tales la Portada,
+Portada de Sección y Página de despliegue de contenidos.
+• Borradores de Página:
+Se toman los bocetos de diseño que hayan sido aprobados y se genera un prototipo (páginas clickeables) mediante el cual se pueda comprobar directamente la forma en que se desempeñan, cuando se les aplica la tecnología HTML de construcción de páginas web.
+• Maqueta Web:
+Es la etapa final y consiste en generar todo el sitio en tecnología HTML utilizando imágenes y contenidos reales
+
+13 - Cuáles son los sistemas que puede utilizar un Sitio Web para recibir feedback o retroalimentación de parte del usuario? 
+
+Un sitio web puede recibir feedback por parte de los usuarios a traves de encuestas, preguntas de satisfaccion o calificacion.
+
+14 - En qué consiste la Prueba de verificación de Contenidos? 
+
+La verificacion de contenidos es una prueba básica para revisar si el Sitio Web desarrollado incluye todos los contenidos que se han especificado en los Términos de Referencia o los que se hayan definido en el marco del plan de desarrollo. Se puede hacer en forma manual o automática
+
+15 - En qué consiste la Prueba de Verificaciones de Interfaces? 
+
+Mediante esta prueba se revisan aspectos gráficos del Sitio Web, para determinar si su despliegue en las páginas es correcto. Dentro de los elementos más importantes a ser verificados, se incluyen los siguientes:
+• Plug-ins necesarios
+• Consistencia de la Diagramación
+• Ancho de la Diagramación
+• Diagramación vs. Browsers
+• Diagramación vs. Sistema Operativo
+• Imágenes Escaladas
+• Imágenes Sin Atributo ALT
+
+16 - Dentro de los chequeos mas importantes respecto a las funcionalidades y aplicaciones de un sitio web tenemos:
+• Validación de Formularios
+• Sistemas de busqueda
+• Sistemas de feedback
+• Sistemas de compra
+• Administracion del error 404
