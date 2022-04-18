@@ -1,3 +1,5 @@
+Parte 1
+
 1 - A qué nos referimos al hablar de Arquitectura de la Información y cuáles son los ítems principales que constituyen su metodología?  
 
 La arquitectura de la información se encarga del estudio, análisis, organización y disposición de la información. Es decir, determina la estructura que tendrá nuestro sistema de información en la web.
@@ -112,3 +114,35 @@ Mediante esta prueba se revisan aspectos gráficos del Sitio Web, para determina
 • Sistemas de feedback
 • Sistemas de compra
 • Administracion del error 404
+
+Parte 2 
+1 -	Qué es una interfaz y cuáles son sus elementos fundamentales? 
+Cuando se habla de Sitios Web, se denomina interfaz al conjunto de elementos de la pantalla que permiten al usuario realizar acciones sobre el Sitio Web que está visitando. Por lo mismo, se considera parte de la interfaz a sus elementos de identificación, de navegación, de contenidos y de acción.
+2 -	Qué es un sistema de navegación y cuáles deben ser sus elementos indispensables?  
+Los sistemas de navegación son los elementos de una interfaz que permiten la navegación por las diferentes secciones y páginas que componen el sitio web.
+•	Menú y Sub menús de secciones o páginas en las que se divide el sitio web.
+•	Breadcrumb (migas de pan) elementos de información sobre nuestra localización dentro del sitio.
+•	Elementos de regreso a la página de inicio o home.
+
+3 -	Qué es Flash y qué problemas puede acarrear su uso? 
+¿Qué es el Flash de una página web?
+Flash es un software originalmente diseñado para crear animaciones que se pueden usar en páginas web. Usa vectores gráficos que son ideales para la web, porque son ligeros y no consumen muchos recursos.
+Flash es una fuente inagotable de problemas. No es seguro, accesible ni usable. Lo que podía servir 10 años atrás, ahora ha quedado obsoleto. En su lugar, han aparecido otros lenguajes de programación como el HTML5 que son mucho más eficientes a la hora de crear y mantener una página web.
+ razones por las que no es aconsejable usar Flash en tu web:
+1) No es accesible
+2) No es usable
+En realidad, usar Flash es una mala decisión de usabilidad porque no es accesible
+3) No es SEO-friendly
+Hace muchos años que venimos repitiendo que el Flash no es una tecnología amigable para los buscadores.
+4) HTML5 es una gran alternativa
+Los sitios más propensos a utilizar Flash son aquellos que ofrecen contenidos interactivos multimedia: sitios de fotografía, vídeo, juegos online. Hoy, todo esto se puede hacer con HTML5 al mismo nivel de calidad o incluso mayor.
+Incluso desde Adobe, la empresa que está detrás de Flash, han declarado que están convencidos de que HTML5 es el futuro de la web.
+
+ 
+4 -	Qué es AJAX y qué problemas puede acarrear su uso?
+¿Qué es AJAX y para qué se utiliza?
+Ajax permite que un usuario de la aplicación web interactúe con una página web sin la interrupción que implica volver a cargar la página web. La interacción del sitio web ocurre rápidamente sólo con partes de la página de recarga y renovación.
+Problemas de AJAX:
+Problemas de acceso. Normalmente, si un usuario refina una consulta a una base de datos a través de muchos criterios (por ejemplo, categoría, precio, forma de pago, etc.), la página se recargará con una URL que reflejará los parámetros ingresados. El usuario puede guardar esa URL para volver a acceder a los resultados ya filtrados fácilmente. Pero con Ajax la URL no se modifica ante la consulta, por lo que deberemos volver a ingresar cada filtro manualmente cuando queramos recuperar los resultados deseados. Existen métodos para modificar este comportamiento, pero agregan dificultad al desarrollo y peso al sitio.
+Problemas de SEO. Los buscadores tienen dificultades al analizar el código escrito en JavaScript. El hecho de que se no se generen nuevas URL elimina un importante factor de posicionamiento.
+Dificultad. Las aplicaciones con Ajax suelen requerir de un mayor tiempo de desarrollo.
