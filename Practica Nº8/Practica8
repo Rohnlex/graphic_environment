@@ -1,0 +1,158 @@
+1) Qué es la Accesibilidad Web?
+
+La accesibilidad web tiene como objetivo lograr que las páginas web sean utilizables por el máximo número de personas, independientemente de sus conocimientos o capacidades personales e independientemente de las características técnicas del equipo utilizado para acceder a la Web.
+
+2) Qué es la WAI?
+
+Iniciativa para la Accesibilidad Web es una rama del World Wide Web Consortium que vela por la accesibilidad de la Web.
+
+3) Cuáles son los Componentes esenciales de Accesibilidad Web?
+
+• Contenido web
+• Herramientas
+	- Herramientas de creación
+	- Herramientas de evaluación
+	- Navegadores web
+	- Ayudas técnicas
+• Personas 
+	- Autores de contenido web 
+	- Usuarios web
+
+4) Qué son las Pautas de Accesibilidad al Contenido en la Web (WCAG)?
+
+Los documentos denominados Pautas de Accesibilidad al Contenido en la Web (WCAG) explican cómo hacer que el contenido Web sea accesible para personas con discapacidad
+
+5) Cuáles son los niveles de prioridad establecidos por las pautas?
+
+• Prioridad 1: puntos que se deben cumplir. En caso contrario, ciertos grupos de usuarios no podrían acceder a la información del sitio web.
+• Prioridad 2: puntos que se deberían cumplir. En caso contrario, ciertos grupos de usuarios tendrían muchas dificultades para acceder a la información.
+• Prioridad 3: puntos que se podrían cumplir. En caso contrario, algunos usuarios podrían tener ciertas dificultades para acceder a la información.
+
+6) Cuáles son los niveles de conformidad?
+
+• Nivel de Conformidad "A": se logra cuando se cumplen todos los puntos de prioridad 1.
+• Nivel de Conformidad "AA": se logra cuando se cumplen todos los puntos de prioridad 1 y 2 .
+• Nivel de Conformidad "AAA": se logra cuando se cumplen todos los puntos de prioridad 1, 2 y 3.
+
+7) Qué es TAW?
+
+Es una herramienta de análisis de la accesibilidad on-line, que permite conocer el grado de cumplimiento de los requisitos de accesibilidad para los sitios Web.
+
+8) En qué consiste la Usabilidad Web?
+
+La usabilidad web actúa como parámetro de la calidad, pues indica la facilidad con la que un programa o una página web pueden ser utilizados por los usuarios. En ella, el diseño y la apariencia están al mismo nivel que la ejecución técnica y la facilidad de uso.
+
+9) A qué se refieren los conceptos de buscabilidad y visibilidad de un sitio web?
+
+Al concepto de estar en la Web y poder ser encontrado y visto lo llamamos ubicuidad. Ubicuidad tiene dos partes: el poder encontrar el sitio, que llamamos buscabilidad. Para usar un sitio Web despues de encontrarlo, hay que poder verlo. Al concepto de poder ver un sitio lo llamamos visibilidad.
+
+10) A qué se refiere el concepto de fidelidad en relación a un sitio web?
+
+La fidelidad de un sitio web refiere a que los usuario que visitaron el sitio en su momento vuelvan a utilizarlo.
+
+11) Qué técnicas se utilizan para evaluar la usabilidad de un sistema?
+
+• Inspección formal de usabilidad.
+
+Un grupo de expertos realizan una especie de juicio de la interfaz, con uno de los participantes actuando como moderador, destacando las fortalezas y las debilidades de la aplicación.
+ 
+• Testeo de usabilidad (Usability testing).
+
+Se realizan pruebas de desempeño de un grupo de usuarios utilizando el sistema a probar y se graban los resultados para un análisis posterior. Esta actividad se puede desarrollar en un laboratorio con condiciones controladas o directamente en el lugar donde se va a utilizar el sistema.
+ 
+• Pensar en voz alta (Thinking aloud).
+
+Se le pide al usuario que realice una serie de tareas específicas. El usuario debe de expresar sus acciones oralmente. Dentro de las instrucciones dadas al usuario de prueba no se le pide que explique sus acciones, simplemente que cada paso que realice lo diga en voz alta (generalmente el mismo usuario da una serie de explicaciones sin pedírselo de manera explícita).
+ 
+• Evaluación heurística y de estándares.
+
+En el área de Interfaces de Usuario existen una serie de estándares y de heurísticas ampliamente aceptados (y probados). En este tipo de evaluación un equipo de especialistas en usabilidad realizan una revisión conforme a estas normativas.
+ 
+• Caminata cognitiva.
+
+Un grupo de expertos simula la manera en como un usuario caminaría por la interfaz al enfrentarse a tareas particulares.
+
+
+12) Qué es la Independencia de Dispositivos y cuáles son sus ventajas desde los puntos de vista del usuario y del desarrollador?
+
+La independencia de dispositivos es la idea de poder acceder y utilizar cualquier sitio web sin importar el dispositivo utilizado.
+
+Las ventajas para el usuario implica el acceso universal, lo cual facilita la accesibilidad de la informacion en todo momento.
+
+Las ventaja para el desarrollador es que programa una sola vez pero se aplica a cualquier mecanismo, de esta forma se evita la duplicacion de informacion. 
+
+13) Qué es la Internacionalización y cómo funciona?
+
+Es un proceso a traves del cual se diseñan sitios web adaptables a diferentes idiomas y regiones sin necesidad de realizar cambios al codigo. Se utilizan formatos y protocolos universales.
+
+Al existir un variado numero de prefencias o circunstancias culturales o de idioma, se utilizan identificadores basados en el idioma y lugar. En HTML se usa el atributo 'lang' y es recomendado usarlo al principio del documento antes de head como tambien en todo lugar del sitio donde haya un cambio de lenguaje.
+
+Tambien es importante etiquetar correctamente el conjunto de caracteres del documento.
+
+14) Cuáles son los conceptos clave para el diseño web internacional?
+
+• Codificación: Utilice Unicode siempre que sea posible para contenidos, bases de datos, etc. Siempre declare la codificación del contenido.
+• Escapes: Utilice caracteres en lugar de escapes (por ejemplo, &#xE1; &#225; o &aacute;) siempre que sea posible.
+• Idioma: Declare el idioma de los documentos e indique los cambios de idioma internos.
+• Presentación vs. contenido: Utilice hojas de estilo para información de presentación. Restrinja el uso de etiquetas para la semántica.
+• Imágenes, animaciones& ejemplos: Verifique si es posible la traducción y si existe alguna influencia cultural inadecuada.
+• Formularios: Utilice una codificación adecuada tanto en el formulario como en el servidor. Admita los formatos locales de nombres/direcciones, horas/fechas, etc.
+• Autoría de texto: Utilice texto simple y conciso. Tenga cuidado al componer oraciones de cadenas múltiples.
+• Navegación: Incluya en cada página una navegación que pueda verse claramente hacia las páginas o los sitios localizados, utilizando el idioma de llegada.
+• Texto de derecha a izquierda: Para XHTML, agregue dir="rtl" a la etiqueta html. Utilícela nuevamente sólo para cambiar la dirección de base.
+
+15) Cuáles son las diferencias entre localización e internacionalización?
+
+Localización
+Se entiende por localización la adaptación de un producto, una aplicación o el contenido de un documento con el fin de adecuarlos a las necesidades (lingüísticas, culturales u otras) de un mercado destinatario concreto. Aunque se la considera a menudo sinónimo de traducción de la interfaz de usuario y de la documentación, la localización suele ser un asunto considerablemente más complejo, que puede implicar la adaptación del contenido en relación con:
+	• formatos numéricos, de fecha y de hora;
+	• uso de símbolos de moneda;
+	• uso del teclado;
+	• algoritmos de comparación y ordenamiento;
+	• símbolos, iconos y colores;
+	• texto y gráficos que contengan referencias a objetos, acciones o ideas que, en una cultura dada, puedan ser objeto de mala interpretación o considerados ofensivos; 
+	• diferentes exigencias legales; 
+	• y muchas otras cuestiones.
+La localización puede requerir incluso una reelaboración exhaustiva de la lógica, el diseño visual o la presentación, si la forma de hacer negocios (por ejemplo, las normas contables) o el paradigma aceptado de aprendizaje (por ejemplo, énfasis en el individuo o en el grupo) en la localidad de destino difieren mucho en relación con la cultura originaria. 
+
+Internacionalización
+La internacionalización es el diseño y desarrollo de un producto, una aplicación o el contenido de un documento de modo tal que permita una fácil localización con destino a audiencias de diferentes culturas, regiones o idiomas.
+
+La internacionalización generalmente implica:
+Un modo de diseño y desarrollo que elimine obstáculos a la localización o la distribución internacional lo cual incluye:
+Usar Unicode o asegurar, allí donde corresponda, un correcto tratamiento de las codificaciones de caracteres anticuadas; controlar la concatenación de cadenas; o evitar que la programación dependa de valores de cadenas pertenecientes a la interfaz de usuario.
+Habilitar características que tal vez no sean usadas hasta el momento de la localización. 
+Preparar el código para hacer frente a las preferencias locales, regionales, lingüísticas o culturales.
+Separar del código o contenido fuente los elementos localizables, de modo que puedan cargarse o seleccionarse alternativas localizadas según determinen las preferencias internacionales del usuario
+
+
+16) A partir de la siguiente lista de comprobación para analizar un sitio web, diferenciar las preguntas que se refieren a aspectos de usabilidad (U) de las de accesibilidad (A)
+
+AspectosGenerales:
+¿Cumple el sitio con sus objetivos?¿Está diseñado para darle a los usuarios lo que ellos quieren? - U
+¿Es eficiente? - U
+¿Es intuitivo? - A
+¿Mantiene una consistencia tanto en su funcionamiento como en su apariencia? - U
+¿Facilita que el usuario se sienta cómodo y con el control del sitio? - A
+
+Navegación:
+¿Aparece la navegación en un lugar prominente, donde se vea fácilmente? - U
+¿Los enlaces que son imágenes tienen su atributo ALT escrito? - A
+Si ha usado JavaScript para la navegación ¿ha preparado también una navegación en modo texto? - A
+¿Existen enlaces rotos o que no conducen a ningún sitio? - U
+¿Tiene el sitio un site map o un buscador para quienes quieren acceder directamente a los contenidos sin tener que navegar?. - A
+¿Se mantiene una navegación consistente y coherente a lo largo del site? - U
+¿Existen elementos que permitan al usuario saber exactamente dónde se encuentra dentro del site y cómo volver atrás (como “migas de pan”)? - A
+¿Indican los enlaces claramente hacia dónde apuntan? - A
+¿Está claro lo que el usuario encontrará detrás de cada uno? - A
+
+Animaciones :
+Evite las animaciones cíclicas (i.e. gif animados que se repiten hasta el cansancio), a menos que cumplan con un propósito claro. Use animaciones Flash sólo si es absolutamente necesario. - A
+
+Tecnología:
+¿La tecnología utilizada en el site es compatible con el software y hardware de los usuarios objetivos? ¿No tendrán que descargar elementos como plug-ins para poder usarlo? - A
+Si es importante utilizar recursos técnicos que requieran la descarga de plug-ins, ¿se le informa al usuario de esta situación y se le explica la importancia de hacerlo? - A
+
+Feedback:
+¿Se han previsto respuestas del sistema frente a interacciones del usuario? - A
+¿Puede el usuario ponerse en contacto para hacer sugerencias o comentarios? - A
